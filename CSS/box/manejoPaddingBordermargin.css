@@ -1,0 +1,20 @@
+h1{
+    color:green;
+    text-align: center;
+}
+p{
+    background-color: rgb(207, 220, 20);
+    color:rgb(0, 0, 0);
+    padding: 15px; 
+    border: 10px solid rgb(255, 145, 0);     
+    /* margin-top: 40px;
+    margin-right: 10px;      
+    margin-bottom: 20px;
+    margin-left: 10px; */
+    
+/* margin:auto ==== centra automaticamente */
+    margin:40px 10px 20px 10px;
+    text-align:center;  /*  dar ubicacion al texto*/
+
+    
+}
