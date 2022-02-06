@@ -7,8 +7,10 @@ a:link, a:visited{
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;  /* cada uno tiene su espacio*/ 
+    margin: 5px 0px;
 }
 a:hover, a:active{
     background-color: #f72585;
-    
+
 }
