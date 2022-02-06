@@ -1,0 +1,19 @@
+h1{
+    color:#001233 ; 
+}
+a:link{ /* Se usa para cuando no se ha dado click en el link*/
+    color: #023e7d ;
+    text-decoration: none;  /* se le quita la linea de abajo al link */ 
+}
+a:visited{ /* se usa para cuando ya se dio click y se regresa */
+    color: #979dac;
+    text-decoration: none;
+}
+a:hover{ /* se usa mientras el cursor esta encima del link*/ 
+    color: #0353a4;
+    text-decoration: underline;  /* Se subraya el texto*/
+}
+a:active{  /* Se usa para cuadno se deja el click presioando*/
+    color:#0466c8 ;
+    text-decoration: underline; 
+}
