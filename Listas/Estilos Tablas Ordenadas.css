@@ -1,0 +1,18 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+
+/* Mostrar contenido antes del listado */
+ol li::before{
+    
+    content:'Curso ' counter(contador)' ';
+    color: coral;
+    
+}
+ol li::after{
+    content: '.';
+}
