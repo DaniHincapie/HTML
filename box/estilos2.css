@@ -1,0 +1,10 @@
+h1{
+    color:blue;
+}
+p{
+    background-color: crimson;
+    color:white;
+    padding: 15px;
+    border: 10px solid lightblue;     /* Padding, border,margin puede ser modificado en cualquiera de los 4 bordes*/
+    margin: 50px;                       /* El orden es SUperior, derecha, abajo, izquierda*/
+}

@@ -1,0 +1,29 @@
+h1{
+    color: #1d3557;
+}
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    /* se muestra el listado independiente */
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    /* Hacer uqe el listado sea horizontal y no vertical */
+    float: left;
+}
+
+/* Usar los items del listado con links */
+li a{
+    /* se desplegan como bloque */
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+/* hover es para que cambie cuadno se pasa el cursor por los links */
+li a:hover{
+    background-color: #1d3557;
+}
