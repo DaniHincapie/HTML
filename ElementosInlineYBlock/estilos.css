@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-h1{
+#titulo_principal{
     color: #f72585;
     text-align: center;
     margin: 15px;
@@ -19,10 +19,10 @@ p{
 }
 /* clase de CSS */
 .tarjeta{
-    border: 10px solid #560bad;
+    border: 5px solid #560bad;
     background-color: #f1faee;
     text-align: center;
-    margin: 10px 115px;
+    margin: 15px 115px;
     padding: 15px;
 }
 .titulo{
